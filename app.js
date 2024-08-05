@@ -4,10 +4,10 @@ function revealOption(option) {
 
     switch(option) {
         case 1:
-            message = 'Você vai me dar o anel PARABÉNS!';
+            message = 'Você vai sair cmg sábado PARABÉNS!';
             break;
         case 2:
-            message = 'Você vai me dar o anel PARABÉNS!';
+            message = 'A gente vai se ver sexta PARABÉNS!';
             break;
         case 3:
             message = 'Você vai me dar o anel PARABÉNS!';
