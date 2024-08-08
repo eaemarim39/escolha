@@ -10,7 +10,7 @@ function revealOption(option) {
             message = 'A gente vai se ver sexta PARABÉNS!';
             break;
         case 3:
-            message = 'Você vai me dar o anel PARABÉNS!';
+            message = 'Você vai ser o amor da minha vida PARABÉNS!';
             break;
         default:
             message = 'Opção inválida!';
