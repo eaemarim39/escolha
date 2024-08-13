@@ -4,13 +4,13 @@ function revealOption(option) {
 
     switch(option) {
         case 1:
-            message = 'Você vai sair cmg sábado PARABÉNS!';
+            message = 'Vão me dar o salário do dia 20, PARABÉNS!';
             break;
         case 2:
-            message = 'A gente vai se ver sexta PARABÉNS!';
+            message = 'Vão me enviar o salário do dia 5 PARABÉNS!';
             break;
         case 3:
-            message = 'Você vai ser o amor da minha vida PARABÉNS!';
+            message = 'Vão me dar o salário inteiro PARABÉNS!';
             break;
         default:
             message = 'Opção inválida!';
