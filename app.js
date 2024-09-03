@@ -10,7 +10,7 @@ function revealOption(option) {
             message = 'Vai sair comigo sábado PARABÉNS!';
             break;
         case 3:
-            message = 'Vai sair comigo domingo PARÁBENS!';
+            message = 'Vai sair comigo domingo PARABÉNS!';
             break;
         default:
             message = 'Opção inválida!';
