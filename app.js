@@ -4,13 +4,13 @@ function revealOption(option) {
 
     switch(option) {
         case 1:
-            message = 'Vai sair comigo sexta, PARABÉNS!';
+            message = 'um beijo meu!';
             break;
         case 2:
-            message = 'Vai sair comigo sábado PARABÉNS!';
+            message = '3 beijo meu';
             break;
         case 3:
-            message = 'Vai sair comigo domingo PARABÉNS!';
+            message = 'um monte de beijo meu!';
             break;
         default:
             message = 'Opção inválida!';
